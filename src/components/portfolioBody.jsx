@@ -12,6 +12,7 @@ class PortfolioBody extends Component {
         
         <div>
                 <img style={{marginLeft:0}} src={signatureAbout}  height="200px" width="500px"></img>
+                <p>Just something to push</p>
         </div> );
     }
 }
