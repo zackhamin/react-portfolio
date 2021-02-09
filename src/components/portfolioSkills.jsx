@@ -11,7 +11,7 @@ class PortfolioSkills extends Component {
     state = {  }
     render() { 
         return ( 
-            <div style={{display: 'row', alignContent:'left', textAlign:'left'}}>
+            <div style={{display: 'row', alignContent:'left'}}>
                 <h2></h2>
                 
                     <div style={{ display:'flex'}} className="progress" style={{height:25}} > 
@@ -30,9 +30,9 @@ class PortfolioSkills extends Component {
 
                     <div className="progress" style={{height:25, marginTop:15}}>
                         <div className="progress-bar progress-bar-info progress-bar-striped" role="progressbar" 
-                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{borderColor:'black', width:'20%', backgroundColor: 'green', color:'black',fontSize:20}}>
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{borderColor:'black', width:'20%', backgroundColor: 'green'}}>
                         </div>
-                        <img style={{marginLeft:0}}src={nodeImage}  height="25px" width="30px"></img>
+                        <img style={{marginLeft:0}}src={nodeImage}  height="25px" width="25px"></img>
                     </div>
 
                      <div className="progress" style={{height:25, marginTop:15}}>
@@ -52,7 +52,7 @@ class PortfolioSkills extends Component {
 
                     <div className="progress" style={{height:25, marginTop:15}}>
                         <div className="progress-bar progress-bar-info " role="progressbar" 
-                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:'30%', backgroundImage: 'linear-gradient(to left, #ff9900 44%, #ffffff 66%)', color:'black'}}>
+                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:'30%', backgroundImage: 'linear-gradient(to left, #ff9900 2%, #ffffff 100%)', color:'black'}}>
                         </div>
                         <img style={{marginLeft:0}}src={swiftImage}  height="25px" width="30px"></img>
                     </div>
