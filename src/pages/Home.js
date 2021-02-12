@@ -11,8 +11,8 @@ function Home() {
             marginTop: 30,
             marginBottom: 50,
             marginLeft: 80,
+            paddingRight: 60,
             justifyContent: "center",
-            zIndex: 0,
           }}
         >
 

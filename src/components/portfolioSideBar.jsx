@@ -19,7 +19,9 @@ class PortfolioSideBar extends Component {
     return (
       <div>
         <div>
-          <IconButton onClick={() => this.linkedInWebPage()}>
+          <IconButton
+            onClick={() => window.open("https://github.com/zackhamin")}
+          >
             {" "}
             <img
               style={{ margin: 10 }}
@@ -28,8 +30,11 @@ class PortfolioSideBar extends Component {
               width="50px"
             ></img>{" "}
           </IconButton>
-          <IconButton onClick={() => console.log("Clicked")}>
-            {" "}
+          <IconButton
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/ishaqamin/")
+            }
+          >
             <img
               style={{ margin: 10, marginBottom: 0 }}
               src={LinkedinImage1}

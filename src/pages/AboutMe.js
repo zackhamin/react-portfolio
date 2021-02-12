@@ -5,8 +5,8 @@ import { Paper } from "@material-ui/core";
 function aboutMe() {
     return (
         
-         <div style={{display: 'flex',flexDirection:'column', width:'100%', height:'100%',alignContent:'center',
-         marginLeft:100,
+         <div style={{display: 'flex',flexDirection:'column', width:'100%', height:'100%',alignContent:'center',padding:30,
+         marginLeft:60,
                    }}>
             <div style={{display:'flex',height:350, width:'90%', backgroundColor:'black'}}>
 

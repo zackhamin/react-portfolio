@@ -9,7 +9,7 @@ class PortfolioHomebody extends Component {
           Thanks for checking me out.
         </p>
         <p style={{ fontSize: 30, fontFamily: "Sriracha, cursive" }}>
-          You can learn more about me to the left{" "}
+          You can learn more about me in the tabs to the left{" "}
         </p>
       </div>
     );
