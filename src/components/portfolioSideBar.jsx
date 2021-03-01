@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import githubImage1 from "../images/githubnew.png";
 import LinkedinImage1 from "../images/linkedinnew.png";
 import HomeIcon from "@material-ui/icons/Home";
-import InfoIcon from "@material-ui/icons/Info";
 import WorkIcon from "@material-ui/icons/Work";
 import ContactIcon from "@material-ui/icons/ContactMail";
 import IconButton from "@material-ui/core/IconButton";
@@ -42,7 +41,7 @@ class PortfolioSideBar extends Component {
               width="50px"
             ></img>{" "}
           </IconButton>
-          <Link to="/">
+          <Link to="About">
             <IconButton>
               {" "}
               <HomeIcon
@@ -55,16 +54,6 @@ class PortfolioSideBar extends Component {
               >
                 {" "}
               </HomeIcon>{" "}
-            </IconButton>
-          </Link>
-          <Link to="About">
-            <IconButton>
-              {" "}
-              <InfoIcon
-                style={{ margin: 10, height: 50, width: 50, color: "#baffc9" }}
-              >
-                {" "}
-              </InfoIcon>{" "}
             </IconButton>
           </Link>
           <Link to="Work">
