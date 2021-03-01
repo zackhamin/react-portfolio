@@ -12,11 +12,12 @@ class App extends Component {
   render() {
 
     return (
+
     <Router>
-         <div style={{paddingTop:100, display: 'flex',flexFlow:'wrap', alignContent:'space-between',height:1000, width: 75, position:'fixed'}}>
+         <div style={{paddingTop:100, display: 'flex',flexFlow:'wrap', alignContent:'space-between',height:1000, width: 75, position:'fixed', backgroundColor: '#FFE6D0'}}>
                 <PortfolioSideBar />
           </div>
-          <div style={{ marginLeft: 60, display: 'flex', flexDirection: 'row', width: '100%', height:200, justifyContent: 'center', zIndex:0}}>
+          <div style={{ marginLeft: 60, display: 'flex', flexDirection: 'row', width: '100%', height:200, justifyContent: 'center',  backgroundColor: '#FFE6D0'}}>
                     <PortfolioHead />
             </div>
       <Switch>

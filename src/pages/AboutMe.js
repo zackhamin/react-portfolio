@@ -8,10 +8,10 @@ function aboutMe() {
     return (
         
         <div style={{display: 'flex',flexDirection:'column',alignContent:'center',alignItems:'center',
-            width:'100%', height:1000, marginLeft:50
+            width:'100%', height:1000, marginLeft:50, backgroundColor: '#FFE6D0'
             }}>
 
-            <div style={{display: 'flex',height: 450, marginBottom:25,width:'80%',overflow:'scroll'}}>
+            <div style={{display: 'flex',height: 450, marginBottom:25,width:'80%',overflow:'auto'}}>
                     <AboutMeText />
             </div>
 

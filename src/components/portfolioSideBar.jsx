@@ -1,18 +1,15 @@
 import React, { Component } from "react";
 import githubImage1 from "../images/githubnew.png";
-import LinkedinImage1 from "../images/linkedinnew.png";
+import LinkedIn from "@material-ui/icons/LinkedIn";
 import HomeIcon from "@material-ui/icons/Home";
 import WorkIcon from "@material-ui/icons/Work";
 import ContactIcon from "@material-ui/icons/ContactMail";
 import IconButton from "@material-ui/core/IconButton";
 import { Link } from "react-router-dom";
+import { LinkedCamera } from "@material-ui/icons";
 
 class PortfolioSideBar extends Component {
   state = {};
-
-  linkedInWebPage = () => {
-    <a href="https://www.linkedin.com" target="_blank" />;
-  };
 
   render() {
     return (
@@ -29,18 +26,26 @@ class PortfolioSideBar extends Component {
               width="50px"
             ></img>{" "}
           </IconButton>
-          <IconButton
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/ishaqamin/")
-            }
-          >
-            <img
-              style={{ margin: 10, marginBottom: 0 }}
-              src={LinkedinImage1}
-              height="50px"
-              width="50px"
-            ></img>{" "}
-          </IconButton>
+
+          <Link>
+            <IconButton
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/ishaqamin/")
+              }
+            >
+              <LinkedIn
+                style={{
+                  margin: 10,
+                  height: 50,
+                  width: 50,
+                  color: "#2867B2",
+                }}
+              >
+                {" "}
+              </LinkedIn>{" "}
+            </IconButton>
+          </Link>
+
           <Link to="About">
             <IconButton>
               {" "}
@@ -68,7 +73,7 @@ class PortfolioSideBar extends Component {
           <Link to="Contact">
             <IconButton>
               <ContactIcon
-                style={{ margin: 10, height: 50, width: 50, color: "#ffdfba" }}
+                style={{ margin: 10, height: 50, width: 50, color: "#D690D9" }}
               />{" "}
             </IconButton>
           </Link>
