@@ -1,10 +1,31 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PortfolioSkills from '../components/PortfolioSkills'
 import AboutMeText from '../components/AboutMeText'
 import CarouselSlide from '../Carousel/CarouselSlide'
 import { Paper, Button } from '@material-ui/core'
+import { SLIDE_INFO } from '../Carousel/carouselImages'
+import { ChevronLeft, ChevronRight } from '@material-ui/icons';
 
-function aboutMe() {
+
+
+function AboutMe() {
+    const [index, setIndex] = useState(0);
+    const content = SLIDE_INFO[index];
+    const numSlides = SLIDE_INFO.length;
+
+    const onArrowClick = (direction) => {
+        const increment = direction === 'left' ? -1 : 1;
+        const newIndex = (index + increment + numSlides) % numSlides;
+        setIndex(newIndex);
+    };
+
+    function Arrow(props) {
+        const { direction, clickFunction } = props;
+        const icon = direction === 'left' ? <ChevronLeft style={{height:50, width:50}}/> : <ChevronRight style={{height:50, width:50}} />;
+    
+        return <div onClick={clickFunction}>{icon}</div>;
+    }
+
     return (
         
         <div style={{display: 'flex',flexDirection:'column',alignContent:'center',alignItems:'center',
@@ -15,10 +36,15 @@ function aboutMe() {
                     <AboutMeText />
             </div>
 
-            <div>
-                <CarouselSlide style={{width:'80%'}}
-                content={{ backgroundColor: '#ff7c7c', title: 'Slide 1' }}
-               
+            <div style={{display:'flex', flexDirection:'row', alignItems:'center'}}>
+            <Arrow 
+                direction='left'
+                clickFunction={() => onArrowClick('left')}
+            />
+                <CarouselSlide content={content} />
+                <Arrow
+                direction='right'
+                clickFunction={() => onArrowClick('right')}
             />
             </div>
             {/* <div style={{display: 'flex', width:'90%', height:260,marginTop:25}}>
@@ -30,4 +56,4 @@ function aboutMe() {
     )
 }
 
-export default aboutMe
+export default AboutMe

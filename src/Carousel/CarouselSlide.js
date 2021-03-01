@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, makeStyles } from '@material-ui/core';
 
+
 export default function CarouselSlide(props) {
     const { backgroundColor, title } = props.content;
 
