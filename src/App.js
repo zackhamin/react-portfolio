@@ -21,7 +21,7 @@ class App extends Component {
                     <PortfolioHead />
             </div>
       <Switch>
-              <Route exact path='/about' component={About} />
+              <Route exact path='/' component={About} />
               <Route exact path='/Work' component={Work} />
               <Route exact path='/Contact' component={ContactPage} />
           </Switch>

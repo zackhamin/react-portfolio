@@ -46,7 +46,7 @@ class PortfolioSideBar extends Component {
             </IconButton>
           </Link>
 
-          <Link to="About">
+          <Link to="/">
             <IconButton>
               {" "}
               <HomeIcon
