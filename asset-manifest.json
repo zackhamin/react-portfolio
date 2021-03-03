@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/zackhamin/react-portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/zackhamin/react-portfolio/static/js/main.130e39b3.chunk.js",
+    "main.js.map": "/zackhamin/react-portfolio/static/js/main.130e39b3.chunk.js.map",
+    "runtime-main.js": "/zackhamin/react-portfolio/static/js/runtime-main.96dddcef.js",
+    "runtime-main.js.map": "/zackhamin/react-portfolio/static/js/runtime-main.96dddcef.js.map",
+    "static/css/2.658248ec.chunk.css": "/zackhamin/react-portfolio/static/css/2.658248ec.chunk.css",
+    "static/js/2.331199f5.chunk.js": "/zackhamin/react-portfolio/static/js/2.331199f5.chunk.js",
+    "static/js/2.331199f5.chunk.js.map": "/zackhamin/react-portfolio/static/js/2.331199f5.chunk.js.map",
+    "static/js/3.41d7632f.chunk.js": "/zackhamin/react-portfolio/static/js/3.41d7632f.chunk.js",
+    "static/js/3.41d7632f.chunk.js.map": "/zackhamin/react-portfolio/static/js/3.41d7632f.chunk.js.map",
+    "index.html": "/zackhamin/react-portfolio/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/zackhamin/react-portfolio/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/zackhamin/react-portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.331199f5.chunk.js.LICENSE.txt": "/zackhamin/react-portfolio/static/js/2.331199f5.chunk.js.LICENSE.txt",
+    "static/media/IMG_5104.4df06941.jpg": "/zackhamin/react-portfolio/static/media/IMG_5104.4df06941.jpg",
+    "static/media/IMG_5147.523d227d.jpg": "/zackhamin/react-portfolio/static/media/IMG_5147.523d227d.jpg",
+    "static/media/IMG_5164.3e0c581f.jpg": "/zackhamin/react-portfolio/static/media/IMG_5164.3e0c581f.jpg",
+    "static/media/IMG_5173.05157fec.jpg": "/zackhamin/react-portfolio/static/media/IMG_5173.05157fec.jpg",
+    "static/media/githubnew.a855c397.png": "/zackhamin/react-portfolio/static/media/githubnew.a855c397.png",
+    "static/media/javascript.dd493364.png": "/zackhamin/react-portfolio/static/media/javascript.dd493364.png",
+    "static/media/kotlin.68c4a2b2.png": "/zackhamin/react-portfolio/static/media/kotlin.68c4a2b2.png",
+    "static/media/me3.4e4317a7.png": "/zackhamin/react-portfolio/static/media/me3.4e4317a7.png",
+    "static/media/node.e4d3d7fd.png": "/zackhamin/react-portfolio/static/media/node.e4d3d7fd.png",
+    "static/media/swift.efa547d9.png": "/zackhamin/react-portfolio/static/media/swift.efa547d9.png",
+    "static/media/walkingAsiyah.05c694b4.JPG": "/zackhamin/react-portfolio/static/media/walkingAsiyah.05c694b4.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96dddcef.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.331199f5.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.130e39b3.chunk.js"
+  ]
+}
