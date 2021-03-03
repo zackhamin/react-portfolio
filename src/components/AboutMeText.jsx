@@ -18,16 +18,17 @@ export default function AboutMeText() {
         organisers, projects managers and more along the way.
         <br />
         <br />I am a STEM ambassador, GDG Manchester founder and lead as well as
-        being an active member of a Manchester based task force aimed at
-        tackling diversity and inclusion in Manchesters growing and vibrant tech
-        scene
+        being an active member of a task force aimed at tackling diversity and
+        inclusion in Manchesters growing and vibrant tech scene.
         <br />
         <br />I am passionate about learning new technologies, I currently work
-        with React, Node, JS, Docker and cloud technologies. I have also worked
-        with Kotlin and Swift as a mobile app dev for the Co-op bank.
+        as a junior full stack software engineer using React, Node, JS, Docker
+        and cloud technologies. I have also worked with Kotlin and Swift as a
+        mobile app dev for the Co-op bank.
         <br />
         <br />I love the software engineering community, I love learning and
-        giving back by mentoring and offering advice to career changers.
+        giving back by mentoring and offering advice to career changers. As a
+        part of my GDG Group I host meet-ups, Hackathons and online workshops.
         <br />
         <br />
         When I am not coding, I am enjoying lifes little pleasures. Me and my
