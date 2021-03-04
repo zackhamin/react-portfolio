@@ -9,8 +9,6 @@ class PortfolioHead extends Component {
       <div>
         <h2
           style={{
-            height: 200,
-            width: 500,
             padding: 50,
             fontSize: 50,
             fontFamily: "Sriracha, cursive",

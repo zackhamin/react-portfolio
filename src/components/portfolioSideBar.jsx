@@ -7,7 +7,6 @@ import ContactIcon from "@material-ui/icons/ContactMail";
 import IconButton from "@material-ui/core/IconButton";
 import CvIcon from "@material-ui/icons/Description";
 import { Link } from "react-router-dom";
-import { LinkedCamera } from "@material-ui/icons";
 
 class PortfolioSideBar extends Component {
   state = {};
@@ -16,7 +15,7 @@ class PortfolioSideBar extends Component {
     return (
       <div>
         <div>
-          <Link>
+          {/* <Link>
             <IconButton
               onClick={() =>
                 window.open(
@@ -36,9 +35,9 @@ class PortfolioSideBar extends Component {
                 {" "}
               </CvIcon>{" "}
             </IconButton>
-          </Link>
+          </Link> */}
 
-          <IconButton
+          {/* <IconButton
             onClick={() => window.open("https://github.com/zackhamin")}
           >
             {" "}
@@ -48,9 +47,9 @@ class PortfolioSideBar extends Component {
               height="50px"
               width="50px"
             ></img>{" "}
-          </IconButton>
+          </IconButton> */}
 
-          <Link>
+          {/* <Link>
             <IconButton
               onClick={() =>
                 window.open("https://www.linkedin.com/in/ishaqamin/")
@@ -67,9 +66,9 @@ class PortfolioSideBar extends Component {
                 {" "}
               </LinkedIn>{" "}
             </IconButton>
-          </Link>
+          </Link> */}
 
-          <Link to="/">
+          {/* <Link to="/">
             <IconButton>
               {" "}
               <HomeIcon
@@ -83,8 +82,11 @@ class PortfolioSideBar extends Component {
                 {" "}
               </HomeIcon>{" "}
             </IconButton>
-          </Link>
-          <Link to="/Work">
+          </Link> */}
+
+
+
+          {/* <Link to="/Work">
             <IconButton>
               <WorkIcon
                 style={{ margin: 10, height: 50, width: 50, color: "#ffb3ba" }}
@@ -92,14 +94,14 @@ class PortfolioSideBar extends Component {
                 {" "}
               </WorkIcon>{" "}
             </IconButton>
-          </Link>
-          <Link to="/Contact">
+          </Link> */}
+          {/* <Link to="/Contact">
             <IconButton>
               <ContactIcon
                 style={{ margin: 10, height: 50, width: 50, color: "#D690D9" }}
               />{" "}
             </IconButton>
-          </Link>
+          </Link> */}
         </div>
       </div>
     );

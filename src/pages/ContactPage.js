@@ -39,7 +39,7 @@ const ContactPage = () => {
 
       return (
         <Grid style={{ backgroundColor: '#FFE6D0', height:800, width:'100%'}} container direction='column' alignItems='center'  >
-            <Grid item ><Paper elevation={3} style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',width:400,height:350, padding: 15}}>
+            <Grid item ><Paper elevation={3} style={{borderRadius:'20%' ,display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',width:300,height:350, padding: 15}}>
             <form onSubmit={sendEmail}>
             <Grid container spacing={2} direction='column'>
                 <Grid item > <TextFields label="Name" variant="outlined" size="small" type="text" onChange={e => setSender(e.target.value)} /> </Grid>

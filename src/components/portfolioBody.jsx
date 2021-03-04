@@ -8,7 +8,6 @@ class PortfolioHomebody extends Component {
           style={{
             fontSize: 16,
             fontFamily: "Sriracha, cursive",
-            marginLeft: 50,
           }}
         >
           Hello.
