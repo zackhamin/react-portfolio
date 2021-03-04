@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ishaqa1.sg-host.com/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/ishaqa1.sg-host.com/static/js/main.130e39b3.chunk.js",
-    "main.js.map": "/ishaqa1.sg-host.com/static/js/main.130e39b3.chunk.js.map",
-    "runtime-main.js": "/ishaqa1.sg-host.com/static/js/runtime-main.8f02de6c.js",
-    "runtime-main.js.map": "/ishaqa1.sg-host.com/static/js/runtime-main.8f02de6c.js.map",
+    "main.js": "/ishaqa1.sg-host.com/static/js/main.13e1e736.chunk.js",
+    "main.js.map": "/ishaqa1.sg-host.com/static/js/main.13e1e736.chunk.js.map",
+    "runtime-main.js": "/ishaqa1.sg-host.com/static/js/runtime-main.49781124.js",
+    "runtime-main.js.map": "/ishaqa1.sg-host.com/static/js/runtime-main.49781124.js.map",
     "static/css/2.658248ec.chunk.css": "/ishaqa1.sg-host.com/static/css/2.658248ec.chunk.css",
-    "static/js/2.331199f5.chunk.js": "/ishaqa1.sg-host.com/static/js/2.331199f5.chunk.js",
-    "static/js/2.331199f5.chunk.js.map": "/ishaqa1.sg-host.com/static/js/2.331199f5.chunk.js.map",
-    "static/js/3.41d7632f.chunk.js": "/ishaqa1.sg-host.com/static/js/3.41d7632f.chunk.js",
-    "static/js/3.41d7632f.chunk.js.map": "/ishaqa1.sg-host.com/static/js/3.41d7632f.chunk.js.map",
+    "static/js/2.da4e6dcf.chunk.js": "/ishaqa1.sg-host.com/static/js/2.da4e6dcf.chunk.js",
+    "static/js/2.da4e6dcf.chunk.js.map": "/ishaqa1.sg-host.com/static/js/2.da4e6dcf.chunk.js.map",
+    "static/js/3.6ec57e32.chunk.js": "/ishaqa1.sg-host.com/static/js/3.6ec57e32.chunk.js",
+    "static/js/3.6ec57e32.chunk.js.map": "/ishaqa1.sg-host.com/static/js/3.6ec57e32.chunk.js.map",
     "index.html": "/ishaqa1.sg-host.com/index.html",
     "static/css/2.658248ec.chunk.css.map": "/ishaqa1.sg-host.com/static/css/2.658248ec.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/ishaqa1.sg-host.com/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.331199f5.chunk.js.LICENSE.txt": "/ishaqa1.sg-host.com/static/js/2.331199f5.chunk.js.LICENSE.txt",
+    "static/js/2.da4e6dcf.chunk.js.LICENSE.txt": "/ishaqa1.sg-host.com/static/js/2.da4e6dcf.chunk.js.LICENSE.txt",
     "static/media/IMG_5104.4df06941.jpg": "/ishaqa1.sg-host.com/static/media/IMG_5104.4df06941.jpg",
     "static/media/IMG_5147.523d227d.jpg": "/ishaqa1.sg-host.com/static/media/IMG_5147.523d227d.jpg",
     "static/media/IMG_5164.3e0c581f.jpg": "/ishaqa1.sg-host.com/static/media/IMG_5164.3e0c581f.jpg",
@@ -27,10 +27,10 @@
     "static/media/walkingAsiyah.05c694b4.JPG": "/ishaqa1.sg-host.com/static/media/walkingAsiyah.05c694b4.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f02de6c.js",
+    "static/js/runtime-main.49781124.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.331199f5.chunk.js",
+    "static/js/2.da4e6dcf.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.130e39b3.chunk.js"
+    "static/js/main.13e1e736.chunk.js"
   ]
 }
